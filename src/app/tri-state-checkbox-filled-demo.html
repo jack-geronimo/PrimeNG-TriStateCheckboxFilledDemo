@@ -1,9 +1,10 @@
 <div class="card flex flex-column gap-3 align-items-center">
-    <p-triStateCheckbox 
+    <p-triStateCheckbox
         [(ngModel)]="value"
-        variant="filled" 
-        inputId="tricheckbox" />
-    <label for="tricheckbox">
+        variant="filled"
+        inputId="triCheckbox"
+    />
+    <label for="triCheckbox">
         {{ value === null ? 'alle' : value==true ? 'aktive' : 'inaktive' }}
     </label>
 </div>
